@@ -6,7 +6,6 @@ int get_integer(void);
 int factorial(int n);
 int combination(int n, int r);
 
-{
 int main(void) 
 { 
   int a, b;
@@ -24,17 +23,18 @@ int combination(int n, int r)
 
 int get_integer(void) 
 { 
-  int n; 
-  printf("ï¿½ï¿½ï¿½ï¿½ : "); 
-  scanf("%d", &n); 
-  return n; 
+	int n; 
+	printf("Á¤¼ö : "); 
+	scanf("%d", &n); 
+	return n; 
 } 
 
 int factorial(int n) 
 { 
-   int i; 
-  long res = 1; 
-  for (i = 1; i <= n; i++) 
-  res *= i; 
-  return res; 
+	int i; 
+	int res = 1; 
+	
+	for (i = 1; i <= n; i++) 
+		res *= i; 
+	return res; 
 } 
