@@ -5,7 +5,7 @@
 
 void square(int a)
 {
-	return (a*a);
+	a=a*a;
 }
 
 
